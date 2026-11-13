@@ -19,8 +19,6 @@ let package = Package(
             dependencies: ["Airbridge"],
             path: "Source",
             linkerSettings: [
-                .linkedFramework("AdSupport"),
-                .linkedFramework("AppTrackingTransparency"),
                 .linkedFramework("AdServices"),
                 .linkedFramework("CoreTelephony"),
                 .linkedFramework("StoreKit"),
@@ -29,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
         name: "Airbridge",
-        url: "https://sdk-download.airbridge.io/airbridge-ios-sdk-restricted/4.12.0/Airbridge.zip",
-        checksum: "d9f170c20139bda940ea00dd3fc4de202fa4b9744e17f140e1772c81be1b7322"
+        url: "https://sdk-download.airbridge.io/airbridge-ios-sdk-restricted/4.13.0/Airbridge.zip",
+        checksum: "22bf4e223bb4a7b246fdbc21c569a2e008b0e801bad6f90e0077aad9aeb8564c"
     ),
     ]
 )
